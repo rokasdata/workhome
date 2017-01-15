@@ -38,7 +38,7 @@ h1 {
 	border-bottom: 1px solid black;
 	border-left: 1px solid black;
 	text-align: center;
-  font-style: bold;
+  font-weight: bold;
 
 }
 #p1 {
@@ -56,6 +56,7 @@ h1 {
 	margin-right: auto;
 	padding: 5px 10px;
   font-size: 16px;
+
 }
 #p3 {
 	color: white;
