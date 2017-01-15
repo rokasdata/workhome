@@ -13,9 +13,12 @@
 	margin: auto;
 }
 header {
-	padding: 28px 0;
+	padding: 15px 0;
 	text-align: center;
 	
+}
+h1 {
+  font-size: 28px;
 }
 .box_left, .box_middle, .box_right {
 	padding: 10px;
