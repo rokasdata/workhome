@@ -25,7 +25,6 @@ h1 {
 
 }
 #box_left, #box_middle, #box_right {
-<<<<<<< HEAD
   background: #ccc;
   border: 2px solid black;
   
@@ -39,21 +38,6 @@ h1 {
   border-bottom: 2px solid black;
   border-left: 2px solid black;
   text-align: center;
-=======
-	background: #ccc;
-  border: 2px solid black;
-	
-}
-#p1, #p3, #p5 {
-	float: right;
-	font-size: 20px;
-	width: 75px;
-	margin:0;
-	padding: 5px;
-	border-bottom: 2px solid black;
-	border-left: 2px solid black;
-	text-align: center;
->>>>>>> 3ef8dcb7ba53c8e31db2cbc5387ca33c20af8164
   font-weight: bold;
 
 }
@@ -82,7 +66,9 @@ h1 {
 
 /********** Large devices only **********/
 @media (min-width: 992px) {
-  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, 
+  .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8,
+   .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
   
   }
@@ -172,6 +158,7 @@ h1 {
 
   }
 }
+/*---------------------------Small Devices-------------*/
 @media (min-width: 240px) and (max-width: 767px) {
   .col-sd-1, .col-sd-2, .col-sd-3, .col-sd-4, .col-sd-5,
    .col-sd-6, .col-sd-7, .col-sd-8, .col-sd-9, .col-sd-10,
