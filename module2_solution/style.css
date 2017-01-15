@@ -2,19 +2,23 @@
 * {
 	box-sizing: border-box;
 	font-family: Overpass Mono;
-	margin: 0;
-	padding: 0;
+	
+}
+.wraper {
+  width: 100%;
+  margin: 0 15px 0 0;
+
 }
 .content {
 	margin: auto;
 }
 header {
-	padding: 20px 0;
+	padding: 28px 0;
 	text-align: center;
 	
 }
 .box_left, .box_middle, .box_right {
-	margin:10px;
+	padding: 10px;
 
 }
 #box_left, #box_middle, #box_right {
@@ -24,7 +28,7 @@ header {
 }
 #p1, #p3, #p5 {
 	float: right;
-	font-size: 22.5px;
+	font-size: 20px;
 	width: 75px;
 	margin:0;
 	padding: 5px;
@@ -47,17 +51,12 @@ header {
 	margin-left: auto;
 	margin-right: auto;
 	padding: 5px 10px;
+  font-size: 16px;
 }
 #p3 {
 	color: white;
 }
-.wraper {
-	width: 100%;
-  margin: auto;
 
-
-
-}
 
 /********** Large devices only **********/
 @media (min-width: 992px) {
@@ -75,7 +74,7 @@ header {
     width: 25%;
   }
   .col-lg-4 {
-    width: 31%;
+    width: 33.33%;
   }
   .col-lg-5 {
     width: 41.66%;
@@ -110,6 +109,7 @@ header {
     .col-md-11, .col-md-12
    {
     float: left;
+
     
   }
   .col-md-1 {
@@ -128,7 +128,7 @@ header {
     width: 41.66%;
   }
   .col-md-6 {
-    width: 47%;
+    width: 50%;
   }
   .col-md-7 {
     width: 58.33%;
@@ -146,7 +146,8 @@ header {
     width: 91.66%;
   }
   .col-md-12 {
-    width: 96%;
+    width: 100%;
+
   }
 }
 @media (min-width: 240px) and (max-width: 767px) {
@@ -191,6 +192,6 @@ header {
     width: 91.66%;
   }
   .col-md-12 {
-    width: 96%;
+    width: 100%;
   }
 }
