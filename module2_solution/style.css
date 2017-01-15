@@ -25,6 +25,7 @@ h1 {
 
 }
 #box_left, #box_middle, #box_right {
+<<<<<<< HEAD
   background: #ccc;
   border: 2px solid black;
   
@@ -38,6 +39,21 @@ h1 {
   border-bottom: 2px solid black;
   border-left: 2px solid black;
   text-align: center;
+=======
+	background: #ccc;
+  border: 2px solid black;
+	
+}
+#p1, #p3, #p5 {
+	float: right;
+	font-size: 20px;
+	width: 75px;
+	margin:0;
+	padding: 5px;
+	border-bottom: 2px solid black;
+	border-left: 2px solid black;
+	text-align: center;
+>>>>>>> 3ef8dcb7ba53c8e31db2cbc5387ca33c20af8164
   font-weight: bold;
 
 }
